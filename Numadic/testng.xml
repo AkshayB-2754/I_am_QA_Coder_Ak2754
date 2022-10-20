@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Numadic_Assignment_Suite">
+  <test thread-count="5" name="Tests">
+    <classes>
+      <class name="numadicTestCases.NumadicTest1"/>
+      <class name="numadicTestCases.NumadicTest2"/>
+      <class name="numadicTestCases.NumadicTest3"/>
+    </classes>
+  </test> <!-- Tests -->
+</suite> <!-- Numadic_Assignment_Suite -->

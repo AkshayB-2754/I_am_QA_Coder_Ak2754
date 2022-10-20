@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[----->Launch browser<-----]]>
+    </line>
+    <line>
+      <![CDATA[-----> Verify header text (JOIN OUR CREW) <-----]]>
+    </line>
+    <line>
+      <![CDATA[-----> Verify Intership Message <-----]]>
+    </line>
+    <line>
+      <![CDATA[-----> Launch browser <-----]]>
+    </line>
+    <line>
+      <![CDATA[-----> Verifying FullTime QA <-----]]>
+    </line>
+    <line>
+      <![CDATA[-----> Verifying and performing ApplyHere Button QA <-----]]>
+    </line>
+    <line>
+      <![CDATA[---> Verifying redirect back and performing ApplyHere Button QA <---]]>
+    </line>
+    <line>
+      <![CDATA[----->Launch browser<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Clicking on Apply button For QA Engineer<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating first name error message<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating last name error message<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating  email error message<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating phone number error message<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating Date of birth error message<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating first name<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating Lats name<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating Email<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating mobile nmber<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating current city<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating Hometown<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating Sports drop down<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating Pets drop down<-----]]>
+    </line>
+    <line>
+      <![CDATA[----->Validating Date of birth tab<-----]]>
+    </line>
+  </reporter-output>
+  <suite name="Numadic_Assignment_Suite" duration-ms="150059" started-at="2022-10-19T17:46:09 GMT-12:00" finished-at="2022-10-19T17:48:39 GMT-12:00">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="150059" started-at="2022-10-19T17:46:09 GMT-12:00" finished-at="2022-10-19T17:48:39 GMT-12:00">
+      <class name="numadicTestCases.NumadicTest3">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="launchBrowser" is-config="true" duration-ms="18478" started-at="2022-10-19T17:47:45 GMT-12:00" finished-at="2022-10-19T17:48:03 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Launch browser<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="ClickingOnQaApplyButton()[pri:1, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ClickingOnQaApplyButton" duration-ms="1122" started-at="2022-10-19T17:48:03 GMT-12:00" finished-at="2022-10-19T17:48:04 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Clicking on Apply button For QA Engineer<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickingOnQaApplyButton -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-10-19T17:48:04 GMT-12:00" finished-at="2022-10-19T17:48:04 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickingOnQaApplyButton status=SUCCESS method=NumadicTest3.ClickingOnQaApplyButton()[pri:1, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Clicking on Apply button For QA Engineer<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingErrorMsgForPersonalDetails()[pri:2, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingErrorMsgForPersonalDetails" duration-ms="8547" started-at="2022-10-19T17:48:04 GMT-12:00" finished-at="2022-10-19T17:48:13 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating first name error message<-----]]>
+            </line>
+            <line>
+              <![CDATA[----->Validating last name error message<-----]]>
+            </line>
+            <line>
+              <![CDATA[----->Validating  email error message<-----]]>
+            </line>
+            <line>
+              <![CDATA[----->Validating phone number error message<-----]]>
+            </line>
+            <line>
+              <![CDATA[----->Validating Date of birth error message<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingErrorMsgForPersonalDetails -->
+        <test-method status="PASS" signature="ValidatingPersonalDetailsFirstName()[pri:3, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingPersonalDetailsFirstName" duration-ms="6039" started-at="2022-10-19T17:48:13 GMT-12:00" finished-at="2022-10-19T17:48:19 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating first name<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingPersonalDetailsFirstName -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-10-19T17:48:13 GMT-12:00" finished-at="2022-10-19T17:48:13 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingErrorMsgForPersonalDetails status=SUCCESS method=NumadicTest3.ValidatingErrorMsgForPersonalDetails()[pri:2, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating first name error message<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingPersonalDetailsLastName()[pri:4, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingPersonalDetailsLastName" duration-ms="1210" started-at="2022-10-19T17:48:19 GMT-12:00" finished-at="2022-10-19T17:48:20 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating Lats name<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingPersonalDetailsLastName -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-10-19T17:48:19 GMT-12:00" finished-at="2022-10-19T17:48:19 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingPersonalDetailsFirstName status=SUCCESS method=NumadicTest3.ValidatingPersonalDetailsFirstName()[pri:3, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating first name<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-10-19T17:48:20 GMT-12:00" finished-at="2022-10-19T17:48:20 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingPersonalDetailsLastName status=SUCCESS method=NumadicTest3.ValidatingPersonalDetailsLastName()[pri:4, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating Lats name<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingPersonalDetailsEmail()[pri:5, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingPersonalDetailsEmail" duration-ms="1039" started-at="2022-10-19T17:48:20 GMT-12:00" finished-at="2022-10-19T17:48:21 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating Email<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingPersonalDetailsEmail -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-10-19T17:48:21 GMT-12:00" finished-at="2022-10-19T17:48:21 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingPersonalDetailsEmail status=SUCCESS method=NumadicTest3.ValidatingPersonalDetailsEmail()[pri:5, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating Email<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingPersonalDetailsMobileNumber()[pri:6, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingPersonalDetailsMobileNumber" duration-ms="1235" started-at="2022-10-19T17:48:21 GMT-12:00" finished-at="2022-10-19T17:48:22 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating mobile nmber<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingPersonalDetailsMobileNumber -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="15" started-at="2022-10-19T17:48:22 GMT-12:00" finished-at="2022-10-19T17:48:22 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingPersonalDetailsMobileNumber status=SUCCESS method=NumadicTest3.ValidatingPersonalDetailsMobileNumber()[pri:6, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating mobile nmber<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingPersonalDetailsCurrentCity()[pri:7, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingPersonalDetailsCurrentCity" duration-ms="893" started-at="2022-10-19T17:48:22 GMT-12:00" finished-at="2022-10-19T17:48:23 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating current city<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingPersonalDetailsCurrentCity -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="0" started-at="2022-10-19T17:48:23 GMT-12:00" finished-at="2022-10-19T17:48:23 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingPersonalDetailsCurrentCity status=SUCCESS method=NumadicTest3.ValidatingPersonalDetailsCurrentCity()[pri:7, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating current city<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingPersonalDetailsHometown()[pri:8, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingPersonalDetailsHometown" duration-ms="934" started-at="2022-10-19T17:48:23 GMT-12:00" finished-at="2022-10-19T17:48:24 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating Hometown<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingPersonalDetailsHometown -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="2" started-at="2022-10-19T17:48:24 GMT-12:00" finished-at="2022-10-19T17:48:24 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingPersonalDetailsHometown status=SUCCESS method=NumadicTest3.ValidatingPersonalDetailsHometown()[pri:8, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating Hometown<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingSportsDropDown()[pri:9, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingSportsDropDown" duration-ms="3530" started-at="2022-10-19T17:48:24 GMT-12:00" finished-at="2022-10-19T17:48:28 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating Sports drop down<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingSportsDropDown -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-10-19T17:48:28 GMT-12:00" finished-at="2022-10-19T17:48:28 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingSportsDropDown status=SUCCESS method=NumadicTest3.ValidatingSportsDropDown()[pri:9, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating Sports drop down<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingPetsDown()[pri:10, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingPetsDown" duration-ms="4119" started-at="2022-10-19T17:48:28 GMT-12:00" finished-at="2022-10-19T17:48:32 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating Pets drop down<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingPetsDown -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-10-19T17:48:32 GMT-12:00" finished-at="2022-10-19T17:48:32 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingPetsDown status=SUCCESS method=NumadicTest3.ValidatingPetsDown()[pri:10, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating Pets drop down<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ValidatingDateOfBirth()[pri:12, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="ValidatingDateOfBirth" duration-ms="1319" started-at="2022-10-19T17:48:32 GMT-12:00" finished-at="2022-10-19T17:48:33 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Validating Date of birth tab<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatingDateOfBirth -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-10-19T17:48:33 GMT-12:00" finished-at="2022-10-19T17:48:33 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingDateOfBirth status=SUCCESS method=NumadicTest3.ValidatingDateOfBirth()[pri:12, instance:numadicTestCases.NumadicTest3@544a2ea6] output=----->Validating Date of birth tab<-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:numadicTestCases.NumadicTest3@544a2ea6]" name="closeBrowser" is-config="true" duration-ms="5445" started-at="2022-10-19T17:48:33 GMT-12:00" finished-at="2022-10-19T17:48:39 GMT-12:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- numadicTestCases.NumadicTest3 -->
+      <class name="numadicTestCases.NumadicTest1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:numadicTestCases.NumadicTest1@18bf3d14]" name="launchBrowser" is-config="true" duration-ms="37519" started-at="2022-10-19T17:46:09 GMT-12:00" finished-at="2022-10-19T17:46:46 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[----->Launch browser<-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="VerifyingHeader()[pri:1, instance:numadicTestCases.NumadicTest1@18bf3d14]" name="VerifyingHeader" duration-ms="9860" started-at="2022-10-19T17:46:46 GMT-12:00" finished-at="2022-10-19T17:46:56 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[-----> Verify header text (JOIN OUR CREW) <-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyingHeader -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest1@18bf3d14]" name="screenshot" is-config="true" duration-ms="9" started-at="2022-10-19T17:46:56 GMT-12:00" finished-at="2022-10-19T17:46:56 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyingHeader status=SUCCESS method=NumadicTest1.VerifyingHeader()[pri:1, instance:numadicTestCases.NumadicTest1@18bf3d14] output=-----> Verify header text (JOIN OUR CREW) <-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="VerifyingIntership()[pri:2, instance:numadicTestCases.NumadicTest1@18bf3d14]" name="VerifyingIntership" duration-ms="803" started-at="2022-10-19T17:46:56 GMT-12:00" finished-at="2022-10-19T17:46:57 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[-----> Verify Intership Message <-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyingIntership -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest1@18bf3d14]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-10-19T17:46:57 GMT-12:00" finished-at="2022-10-19T17:46:57 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyingIntership status=SUCCESS method=NumadicTest1.VerifyingIntership()[pri:2, instance:numadicTestCases.NumadicTest1@18bf3d14] output=-----> Verify Intership Message <-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:numadicTestCases.NumadicTest1@18bf3d14]" name="closeBrowser" is-config="true" duration-ms="4734" started-at="2022-10-19T17:46:57 GMT-12:00" finished-at="2022-10-19T17:47:02 GMT-12:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- numadicTestCases.NumadicTest1 -->
+      <class name="numadicTestCases.NumadicTest2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:numadicTestCases.NumadicTest2@6ec8211c]" name="launchBrowser" is-config="true" duration-ms="34334" started-at="2022-10-19T17:47:02 GMT-12:00" finished-at="2022-10-19T17:47:36 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[-----> Launch browser <-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="VerifyingFullTimeQA()[pri:1, instance:numadicTestCases.NumadicTest2@6ec8211c]" name="VerifyingFullTimeQA" duration-ms="948" started-at="2022-10-19T17:47:36 GMT-12:00" finished-at="2022-10-19T17:47:37 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[-----> Verifying FullTime QA <-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyingFullTimeQA -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest2@6ec8211c]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-10-19T17:47:37 GMT-12:00" finished-at="2022-10-19T17:47:37 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyingFullTimeQA status=SUCCESS method=NumadicTest2.VerifyingFullTimeQA()[pri:1, instance:numadicTestCases.NumadicTest2@6ec8211c] output=-----> Verifying FullTime QA <-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="ApplyHereButtonActions()[pri:2, instance:numadicTestCases.NumadicTest2@6ec8211c]" name="ApplyHereButtonActions" duration-ms="5561" started-at="2022-10-19T17:47:37 GMT-12:00" finished-at="2022-10-19T17:47:43 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[-----> Verifying and performing ApplyHere Button QA <-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ApplyHereButtonActions -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest2@6ec8211c]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-10-19T17:47:43 GMT-12:00" finished-at="2022-10-19T17:47:43 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApplyHereButtonActions status=SUCCESS method=NumadicTest2.ApplyHereButtonActions()[pri:2, instance:numadicTestCases.NumadicTest2@6ec8211c] output=-----> Verifying and performing ApplyHere Button QA <-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="VerifyingRedirectBack()[pri:3, instance:numadicTestCases.NumadicTest2@6ec8211c]" name="VerifyingRedirectBack" duration-ms="22" started-at="2022-10-19T17:47:43 GMT-12:00" finished-at="2022-10-19T17:47:43 GMT-12:00">
+          <reporter-output>
+            <line>
+              <![CDATA[---> Verifying redirect back and performing ApplyHere Button QA <---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyingRedirectBack -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:numadicTestCases.NumadicTest2@6ec8211c]" name="screenshot" is-config="true" duration-ms="1" started-at="2022-10-19T17:47:43 GMT-12:00" finished-at="2022-10-19T17:47:43 GMT-12:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyingRedirectBack status=SUCCESS method=NumadicTest2.VerifyingRedirectBack()[pri:3, instance:numadicTestCases.NumadicTest2@6ec8211c] output=---> Verifying redirect back and performing ApplyHere Button QA <---]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:numadicTestCases.NumadicTest2@6ec8211c]" name="closeBrowser" is-config="true" duration-ms="2150" started-at="2022-10-19T17:47:43 GMT-12:00" finished-at="2022-10-19T17:47:45 GMT-12:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- numadicTestCases.NumadicTest2 -->
+    </test> <!-- Tests -->
+  </suite> <!-- Numadic_Assignment_Suite -->
+</testng-results>
